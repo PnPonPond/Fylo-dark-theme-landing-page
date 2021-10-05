@@ -8,6 +8,11 @@
   line-height: 150%;
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   background-color: hsl(218, 28%, 13%);
@@ -332,7 +337,8 @@ nav ul li {
   h2 {
     font-size: 150%;
   }
-  h4,h6 {
+  h4,
+  h6 {
     font-size: 100%;
   }
   /* nav */
@@ -383,7 +389,7 @@ nav ul li {
     padding: 0 11%;
     text-align: left;
   }
-  #works h1{
+  #works h1 {
     width: 100%;
     font-size: 110%;
   }
@@ -398,7 +404,7 @@ nav ul li {
   .text {
     padding: 0;
     width: 100%;
-     }
+  }
   /* comment  */
   .flex-container {
     flex-direction: column;
@@ -433,10 +439,10 @@ nav ul li {
 
   /* footer */
   #footer {
-   height: fit-content;
+    height: fit-content;
     padding: 200px 10% 0 10%;
   }
-  #footer p{
+  #footer p {
     font-size: 110%;
   }
   .logo {
@@ -445,7 +451,7 @@ nav ul li {
   .bot-flex {
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
   }
   .box1 {
     width: 100%;
@@ -454,8 +460,9 @@ nav ul li {
   #footer li {
     margin-bottom: 20px;
   }
-  #footer ul, .social {
-      margin-bottom: 30px;
+  #footer ul,
+  .social {
+    margin-bottom: 30px;
   }
   .link-bot {
     display: block;
@@ -464,7 +471,7 @@ nav ul li {
     width: 100%;
     justify-content: center;
   }
-  .social i{
-      margin-left: 20px;
+  .social i {
+    margin-left: 20px;
   }
 }
